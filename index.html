@@ -58,7 +58,7 @@ function queryCustomDimensions() {
     gapi.client.analytics.management.customDimensions.get({
       'accountId': '75347193',
       'webPropertyId': 'UA-75347193-1',
-      'customDimensionId' : 'ga:dimension2'
+      'customDimensionId' : 'ga:dimension1'
   }).then(handleDimension)
   .then(null, function(err) {
       // Log any errors.
