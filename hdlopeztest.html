@@ -1,0 +1,39 @@
+<html>
+<head>
+</head>
+<body>
+	I'M TRACKING BITCH!
+<script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script',
+      '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-75347193-1', 'auto');
+  ga('send', 'pageview');
+  
+  ga('set', 'dimension1', "token dummy");
+	ga('set', 'dimension2', "session dummy");
+	ga('set', 'dimension3', "flavor dummy");
+	ga('send', {
+		  hitType: 'event',
+		  eventCategory: 'Test1',
+		  eventAction: 'testAction1',
+		  eventLabel: 'TestLabel1'
+		});
+		
+	ga('send', {
+	  hitType: 'event',
+	  eventCategory: 'Test2',
+	  eventAction: 'testAction2',
+	  eventLabel: 'TestLabel2'
+	});
+</script>
+</body>
+</html>
