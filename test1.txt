@@ -1,4 +1,0 @@
-gatest.html
-index.html
-mromar.html
-test1.txt
